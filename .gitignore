@@ -1,0 +1,15 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow the documented example
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ChromaDB data
+rag_db/
